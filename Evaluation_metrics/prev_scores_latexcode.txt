@@ -1,0 +1,87 @@
+\documentclass{article}
+\usepackage{multirow}   % for multirow
+\usepackage{geometry}   % page margins
+\usepackage{graphicx}   % for resizebox
+\geometry{margin=1in}
+
+\begin{document}
+
+\begin{table*}[h!]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{l|ccccc|c|ccccc|c}
+\hline
+\multirow{2}{*}{Model(s)} & \multicolumn{6}{c|}{DrawBench} & \multicolumn{6}{c}{MSCOCO} \\
+\cline{2-13}
+ & Object FiG & Colour FiG & Number FiG & Positional FiG & Text FiG & CHAIR$_i$ & Object FiG & Colour FiG & Number FiG & Positional FiG & Text FiG & CHAIR$_i$ \\
+\hline
+SDXL 1.0 & 39.39 & 47.43 & 31.12 & 10.12 & 28.57 & 50.10 & 35.90 & 41.30 & 29.20 & 15.12 & N/A & 48.10 \\
+SD-2     & 42.79 & 34.61 & 32.03 &  5.23 &  9.52 & 50.10 & 25.70 & 24.12 & 19.96 & 10.30 & N/A & 50.10 \\
+Flux-Dev & 46.92 & 62.82 & 40.51 & 20.83 & 23.80 & 24.70 & 34.05 & 28.80 & 26.80 & 12.30 & N/A & 43.90 \\
+\hline
+Mean     & 43.03 & 48.29 & 34.55 & 12.06 & 20.63 & 41.63 & 31.88 & 31.41 & 25.32 & 12.57 & N/A & 47.37 \\
+Std. Dev &  3.77 & 11.53 &  4.23 &  6.43 &  7.93 & 12.26 &  5.46 &  8.94 &  4.86 &  2.41 & N/A &  3.10 \\
+\hline
+\end{tabular}}
+\end{table*}
+
+\begin{table*}[h!]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{l|ccccc|c|ccccc|c}
+\hline
+\multirow{2}{*}{Model(s)} & \multicolumn{6}{c|}{DrawBench} & \multicolumn{6}{c}{MSCOCO} \\
+\cline{2-13}
+ & Object FiG & Colour FiG & Number FiG & Positional FiG & Text FiG & CHAIR$_i$ & Object FiG & Colour FiG & Number FiG & Positional FiG & Text FiG & CHAIR$_i$ \\
+\hline
+Grounding-DINO & 39.39 & 47.43 & 31.12 & 10.12 & 28.57 & 50.10 & 42.12 & 48.47 & 37.82 & 15.23 & N/A & 44.10 \\
+YOLOv8         & 32.49 & 46.43 & 26.10 & 10.12 & 14.28 & 55.12 & 40.89 & 47.33 & 38.23 & 15.23 & N/A & 43.20 \\
+\hline
+Mean           & 35.94 & 46.93 & 28.61 & 10.12 & 21.43 & 52.61 & 41.51 & 47.90 & 38.02 & 15.23 & N/A & 43.65 \\
+Std. Dev       &  3.45 &  0.71 &  2.51 &  0.00 &  7.15 &  2.51 &  0.82 &  0.57 &  0.29 &  0.00 & N/A &  0.45 \\
+\hline
+\end{tabular}}
+\end{table*}
+
+
+\begin{table*}[h!]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{l|ccccc|c|ccccc|c}
+\hline
+\multirow{2}{*}{Model(s)} & \multicolumn{6}{c|}{DrawBench} & \multicolumn{6}{c}{MSCOCO} \\
+\cline{2-13}
+ & Object FiG & Colour FiG & Number FiG & Positional FiG & Text FiG & CHAIR$_i$ & Object FiG & Colour FiG & Number FiG & Positional FiG & Text FiG & CHAIR$_i$ \\
+\hline
+InstructBLIP-Vicuna7b & 46.92 & 62.82 & 40.51 & 10.23 & 23.80 & 24.70 & 44.22 & 59.64 & 37.82 & 12.23 & N/A & 43.90 \\
+mPLUG-OWL             & 44.41 & 28.73 & 29.43 &  2.81 & 47.61 & 50.10 & 40.21 & 24.33 & 28.32 & 12.53 & N/A & 40.32 \\
+BLIP2                 & 46.65 & 32.18 & 45.07 & 19.74 & 42.85 & 24.70 & 47.68 & 30.24 & 42.07 & 19.01 & N/A & 50.21 \\
+\hline
+Mean                  & 46.00 & 41.24 & 38.34 & 10.93 & 38.09 & 33.17 & 44.04 & 38.07 & 36.07 & 14.59 & N/A & 44.81 \\
+Std. Dev              &  1.10 & 17.72 &  8.07 &  6.90 &  9.93 & 12.28 &  3.76 & 15.63 &  7.14 &  3.75 & N/A &  5.00 \\
+\hline
+\end{tabular}}
+\end{table*}
+
+
+\begin{table*}[h!]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{l|ccccc|c|ccccc|c}
+\hline
+\multirow{2}{*}{Model(s)} & \multicolumn{6}{c|}{DrawBench} & \multicolumn{6}{c}{MSCOCO} \\
+\cline{2-13}
+ & Object FiG & Colour FiG & Number FiG & Positional FiG & Text FiG & CHAIR$_i$ & Object FiG & Colour FiG & Number FiG & Positional FiG & Text FiG & CHAIR$_i$ \\
+\hline
+Qwen-7b         & 46.92 & 62.82 & 40.51 & 20.83 & 23.80 & 24.70 & 34.05 & 28.80 & 26.80 & 12.30 & N/A & 43.90 \\
+Mistral-v27b    & 44.83 & 59.77 & 32.71 & 19.48 & 52.38 & 22.12 & 32.82 & 27.23 & 25.13 & 11.24 & N/A & 40.21 \\
+Llama-3.18b     & 41.07 & 45.97 & 32.30 & 19.23 & 52.38 & 23.90 & 31.23 & 29.21 & 22.12 & 16.23 & N/A & 44.54 \\
+NeMo-Minitron8b & 49.23 & 57.47 & 27.29 & 12.12 & 52.38 & 24.45 & 31.75 & 35.71 & 28.01 &  9.82 & N/A & 50.10 \\
+\hline
+Mean            & 45.51 & 56.51 & 33.20 & 17.92 & 45.24 & 23.79 & 32.96 & 30.24 & 25.52 & 12.40 & N/A & 44.69 \\
+Std. Dev        &  3.43 &  7.31 &  5.29 &  3.86 & 12.44 &  0.97 &  1.07 &  3.73 &  2.43 &  2.52 & N/A &  4.12 \\
+\hline
+\end{tabular}}
+\end{table*}
+
+\end{document}
