@@ -86,11 +86,12 @@ NeMo-Minitron8b & 49.23 & 57.47 & 27.29 & 12.12 & 52.38 & 24.45 & 31.75 & 35.71 
  & Object FiG & Colour FiG & Number FiG & Positional FiG & Text FiG & CHAIR$_i$ 
  & Object FiG & Colour FiG & Number FiG & Positional FiG & Text FiG & CHAIR$_i$ \\
 \hline
-Mean    & 43.41 & 47.96 & 34.52 & 13.67 & N/A & 36.73 & 36.88 & 37.76 & 30.13 & 13.09 & N/A & 45.12 \\
-Std Dev &  4.76 & 11.55 &  5.78 &  5.96 & N/A & 12.49 &  6.04 & 11.17 &  6.64 &  2.49 & N/A &  3.39 \\
+Mean    & 43.41 & 47.96 & 34.52 & 13.67 & 33.90 & 36.73 & 36.88 & 37.76 & 30.13 & 13.09 & N/A & 45.12 \\
+Std Dev &  4.76 & 11.55 &  5.78 &  5.96 & 14.74 & 12.49 &  6.04 & 11.17 &  6.64 &  2.49 & N/A &  3.39 \\
 \hline
 \end{tabular}}
 \end{table*}
+
 
 
 \end{document}
