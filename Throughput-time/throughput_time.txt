@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{longtable}
+
+\title{\textbf{Throughput and Total Time Comparison}} 
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-5em}  % <-- Reduce vertical space after title
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Model} & \textbf{Total Time (s)} & \textbf{Throughput (img or caps/s)}\\
+\hline
+SDXL & 512.07 & 0.01 \\
+SD2 & 215.16 & 0.02 \\
+Flux-Dev & 49.61 & 0.10 \\
+GroundingDINO & 165.25 & 0.03 \\
+SAM2 & 49.29 & 0.10 \\
+BLIP2-Instruct & 26.47 & 0.19\\
+Qwen7B & 18.59 & 0.27\\
+\hline
+\end{tabular}
+\caption{Throughput and total processing time for different models over 5 samples.}
+\label{tab:tt_results}
+\end{table}
+
+\end{document}
