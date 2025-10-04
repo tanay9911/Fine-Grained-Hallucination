@@ -1,0 +1,17 @@
+\begin{table*}[h!]
+\centering
+\caption{DrawBench-FiG-Human\_Alignment Scores Comparison for Another Universe}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{l|cccc}
+\hline
+Category & Accuracy & Precision & Recall & F1 \\
+\hline
+Object      & 0.867 & 0.731 & 0.844 & 0.784 \\
+Colour      & 0.714 & 1.0   & 0.714 & 0.833 \\
+Number      & 0.750 & 0.970 & 0.780 & 0.865 \\
+Positional  & 0.852 & 1.0   & 0.852 & 0.920 \\
+Text        & 1.000 & 0.273 & 1.000 & 0.429 \\
+Overall Avg & 0.832 & 0.829 & 0.832 & 0.809 \\
+\hline
+\end{tabular}}
+\end{table*}
