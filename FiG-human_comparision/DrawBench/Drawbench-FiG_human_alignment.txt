@@ -1,6 +1,6 @@
 \begin{table*}[h!]
 \centering
-\caption{DrawBench-FiG-Human\_Alignment Scores Comparison for Another Universe}
+\caption{DrawBench-FiG-Human\_Alignment Scores Comparison}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{l|cccc}
 \hline
